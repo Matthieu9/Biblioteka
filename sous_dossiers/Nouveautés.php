@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>W3.CSS Template</title>
+  <title>฿IBLIOTECHA - Nouveautées</title>
 </head>
 
 <meta charset="UTF-8">
