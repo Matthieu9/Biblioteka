@@ -4,6 +4,7 @@
 <head>
   <title>฿IBLIOTECHA - À propos</title>
 
+<<<<<<< HEAD
 </head>
 <?php
 include('include/navbar.php');
