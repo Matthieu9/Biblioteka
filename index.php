@@ -15,7 +15,7 @@
 <style>
   body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-  .fa-anchor,.fa-coffee {font-size:200px}
+  .fa-address-card-o,.fa-area-chart {font-size:200px}
 </style>
 
 <body>
@@ -46,11 +46,11 @@
 <header class="w3-container w3-black w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-text-red w3-jumbo">฿IBLIOTECHA</h1>
   <p class="w3-xlarge w3-text-green">FIND YOUR R00T.</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">RECHERCHER</button>
+  <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top">RECHERCHER</button>
 </header>
 
 <!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-row-padding w3-dark-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>฿ibliotecha, c'est quoi?</h1>
@@ -61,23 +61,23 @@
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+      <i class="fa fa-address-card-o w3-padding-64 w3-text-red "></i>
     </div>
   </div>
 </div>
 
 <!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+<div class="w3-row-padding w3-black w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+      <i class="fa fa-area-chart w3-padding-64 w3-text-red w3-margin-right"></i>
     </div>
 
     <div class="w3-twothird">
       <h1>Comment ça marche?</h1>
-      <h5 class="w3-padding-32">Les systèmes</h5>
+      <h5 class="w3-padding-32 w3-text-green">Les systèmes</h5>
 
-      <p class="w3-text-grey">Les documents sont partagés grace à une Data-Base(base de données[Bientôt P2p grace à l'application ^^]), c'est le staf qui gére ces archives, mais c'est la comunauté qui l'alimante en le proposant de manière anonyme ou non sur #Contacte.<br />Ce qui est des pubs, le site s'engage à ne pas mettre de pubs ou de pop-up ou même à vendre vos cookies, le système de rémunération est un Miner intégré à la page web(pas de surchofe de processeur car on ne mais pas la capacité à 100%), le mineur ce charge d'enpreinté votre puissance de calcule pour miner du XMR tout pendant que vous restiez sur ฿ibliotecha.<br />(10 secondes = 0.0001€ ) Cela à été mis en place pour limiter la casse niveau logistique et équipement de ฿ibliotecha; donc si vous pouvez laisser ouvert la page web ^^ .</p>
+      <p class="w3-text-orange">Les documents sont partagés grace à une Data-Base(base de données[Bientôt P2p grace à l'application ^^]), c'est le staf qui gére ces archives, mais c'est la comunauté qui l'alimante en le proposant de manière anonyme ou non sur #Contacte.<br />Ce qui est des pubs, le site s'engage à ne pas mettre de pubs ou de pop-up ou même à vendre vos cookies, le système de rémunération est un Miner intégré à la page web(pas de surchofe de processeur car on ne mais pas la capacité à 100%), le mineur ce charge d'enpreinté votre puissance de calcule pour miner du XMR tout pendant que vous restiez sur ฿ibliotecha.<br />(10 secondes = 0.0001€ ) Cela à été mis en place pour limiter la casse niveau logistique et équipement de ฿ibliotecha; donc si vous pouvez laisser ouvert la page web ^^ .</p>
     </div>
   </div>
 </div>
