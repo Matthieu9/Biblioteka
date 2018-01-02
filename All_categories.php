@@ -2,7 +2,9 @@
 <html>
 
 <head>
-  <title>W3.CSS Template</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>฿ibliotecha - Catégories</title>
 </head>
 
 <meta charset="UTF-8">
@@ -45,7 +47,7 @@
 <!-- Header -->
 <header class="w3-container w3-black w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-text-red w3-jumbo">฿IBLIOTECHA</h1>
-  <p class="w3-xlarge w3-text-green">FIND YOUR R00T.</p>
+  <p class="w3-xlarge w3-text-green">TOUTE LES CATEGORIES.</p>
   <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top">RECHERCHER</button>
 </header>
 
@@ -76,6 +78,71 @@ function myFunction() {
     }
 }
 </script>
+
+<h1>฿ibliotecha</h1>
+
+
+<h2>Liste de toutes les catégories :</h2>
+<p>(ces catégories ont plus de 5 pdf)</p> <!--un pdf pourra avoir plusieurs catégories. les catégories sont celles au dessus de 5 pdf pour le début mais si le nombre de pdf augmente alors le bareme augmentera -->
+
+<ul>
+    <li>Programations :
+      <ol>
+        <li> HTML 5</li>
+        <li> CSS 3</li>
+        <li> JavaScript</li>
+        <li> PHP</li>
+        <li> SQL</li>
+        <li> C</li>
+        <li> C++</li>
+        <li> C#</li>
+        <li> Python</li>
+      </ol>
+    </li>        <!--pour le moment c'est des exemples de catégories-->
+    <li>Electroniques :
+      <ol>
+        <li> Arduino</li>
+        <li> Hardware</li>
+      </ol>
+    </li>
+    <li>Tags :
+      <ol>
+        <li> Type</li>
+        <li> Date</li>
+        <li> Taille</li>
+        <li> Auteur</li>
+        <li> Format</li>
+        <li> Certifié ฿</li>
+        <li> Langues :
+          <ul>
+            <li> Français</li>
+            <li> Anglais</li>
+            <li> Espagnole</li>
+            <li> Allemand</li>
+            <li> Italien</li>
+            <li> Chinoi</li>
+            <li> Latin</li>
+            <li> Espéranto</li>
+          </ul>
+        </li>
+        <li> Nombre de peer</li>
+        <li> Nombre de téléchargements</li>
+        <li> Date (de parution)</li>
+        <li> Libraire</li>
+      </ol>
+    </li>
+    <li>Crypto-monaies : <!-- Liens crypto-monaies. -->
+      <ol>
+        <li>BiteCoin</li>
+        <li>ByteCoin</li>
+        <li>XMR</li>
+        <li>Etherum</li>
+        <li>Etherum clasique</li>
+        <li>SAL</li>
+        <li>Monéro</li>
+      </ol>
+    </li>
+</ul>
 
 </body>
 </html>
