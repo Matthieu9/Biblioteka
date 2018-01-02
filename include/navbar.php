@@ -14,23 +14,66 @@
 </style>
 
 <body>
-
+<?php $name = basename($_SERVER['PHP_SELF']); ?>
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-white"><i class="fa fa-bars" aria-hidden="true"></i>
-Accueil</a>
-    <a href="a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-fire" aria-hidden="true"></i>
-À propos</a>
-    <a href="Nouveautés.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-flask" aria-hidden="true"></i>
-Nouveautées</a>
-    <a href="Documentations.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-database" aria-hidden="true"></i>
-Documentations</a>
-    <a href="All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-tags" aria-hidden="true"></i>
-Catégories</a>
-    <a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-envelope" aria-hidden="true"></i>
-Contacte</a>
+    <?php
+    if ($name == 'index.php'){
+      echo '<a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-white"><i class="fa fa-bars" aria-hidden="true"></i>
+Accueil</a>';
+    }
+    else {
+      echo '<a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-hover-white"><i class="fa fa-bars" aria-hidden="true"></i>
+Accueil</a>';
+    }
+    if ($name == 'a_propos.php'){
+      echo '<a href="a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-fire" aria-hidden="true"></i>
+À propos</a>';
+    }
+    else {
+      echo '<a href="a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-fire" aria-hidden="true"></i>
+À propos</a>';
+    }
+    if ($name == 'news.php'){
+      echo '<a href="news.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-flask" aria-hidden="true"></i>
+Nouveautées</a>';
+    }
+    else {
+      echo '<a href="news.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-flask" aria-hidden="true"></i>
+Nouveautées</a>';
+    }
+    if ($name == 'Documentations.php') {
+      echo '<a href="Documentations.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-database" aria-hidden="true"></i>
+Documentations</a>';
+    }
+    else {
+      echo '<a href="Documentations.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-database" aria-hidden="true"></i>
+Documentations</a>';
+    }
+    if ($name == 'All_categories.php') {
+      echo '<a href="All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-tags" aria-hidden="true"></i>
+Catégories</a>';
+    }
+    else {
+      echo '<a href="All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-tags" aria-hidden="true"></i>
+Catégories</a>';
+    }
+    if ($name == 'contact.php'){
+     echo '<a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-envelope" aria-hidden="true"></i>
+Contacte</a>'; 
+    }
+    else {
+      echo '<a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-envelope" aria-hidden="true"></i>
+Contacte</a>';
+    }
+    ?>
+    
+    
+    
+    
+    
   </div>
 
   <!-- Navbar on small screens -->
