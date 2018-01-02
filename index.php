@@ -8,6 +8,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,12 +26,18 @@
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-white fa-home">Accueil</a>
-    <a href="sous_dossiers/a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-fire">À propos</a>
-    <a href="sous_dossiers/Nouveautés.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-flask">Nouveautées</a>
-    <a href="sous_dossiers/Documentations.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-database">Documentations</a>
-    <a href="sous_dossiers/All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-tags">Catégories</a>
-    <a href="sous_dossiers/contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-envelope">Contacte</a>
+    <a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-white"><i class="fa fa-bars" aria-hidden="true"></i>
+Accueil</a>
+    <a href="sous_dossiers/a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-fire" aria-hidden="true"></i>
+À propos</a>
+    <a href="sous_dossiers/Nouveautés.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-flask" aria-hidden="true"></i>
+Nouveautées</a>
+    <a href="sous_dossiers/Documentations.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-database" aria-hidden="true"></i>
+Documentations</a>
+    <a href="sous_dossiers/All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-tags" aria-hidden="true"></i>
+Catégories</a>
+    <a href="sous_dossiers/contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-envelope" aria-hidden="true"></i>
+Contacte</a>
   </div>
 
   <!-- Navbar on small screens -->
