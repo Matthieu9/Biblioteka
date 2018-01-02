@@ -51,6 +51,8 @@
   <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top">RECHERCHER</button>
 </header>
 
+
+<header class="w3-container w3-dark-grey" style="padding:32px 4px">
 <h1>฿ibliotecha</h1>
 
 
@@ -115,7 +117,7 @@
       </ol>
     </li>
 </ul>
-
+</header>
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">
   <div class="w3-xlarge w3-padding-32">
