@@ -2,19 +2,7 @@
 <html>
 
 <head>
-  <title>฿IBLIOTECHA - Contacte</title>
-
-  <style type="text/css">
-    header {
-      background-image: url("include/reseau_sociaux.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-    }
-    #search {
-      visibility: hidden;
-    }
-  </style>
+  <title>฿IBLIOTECHA - Nouveautées</title>
 </head>
 
 <meta charset="UTF-8">
@@ -35,26 +23,14 @@ include('include/navbar.php');
 ?>
 
 <!-- Header -->
-<header class="w3-container w3-center w3-black" style="padding:128px 16px">
-  <h1 class="w3-margin w3-text-black w3-jumbo">฿IBLIOTECHA</h1>
-  <p class="w3-xlarge w3-text-black">FIND YOUR R00T.</p>
+<header class="w3-container w3-black w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-text-red w3-jumbo">฿IBLIOTECHA</h1>
+  <p class="w3-xlarge w3-text-green">FIND YOUR R00T.</p>
+  <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top">RECHERCHER</button>
 </header>
 
-<body>
-<div class="w3-card-4 w3-dark-grey">
-  <div class="w3-container w3-center">
-    <h1><strong>Staff</strong></h1>
-    <img src="include/img_avatar3.png" alt="Staff" >
-    <h5>John Doe</h5>
-    <p>The staff is so sexy !</p>
-  </div>
- <fieldset>
-  <label for="email1">Email :</label>
-  <input type="text" name="email1" id="email1" autocomplete="off"><br>
-  <input type="hidden" name="email2" id="email2" value="" autocomplete="off">
-  <input type="submit" value="Submit" class="button">
- </fieldset>
-</div>
+
+
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">
@@ -80,5 +56,4 @@ function myFunction() {
     }
 }
 </script>
-
 </html>
