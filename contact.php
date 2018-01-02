@@ -46,14 +46,16 @@ include('include/navbar.php');
     <h1><strong>Staff</strong></h1>
     <img src="include/img_avatar3.png" alt="Staff" >
     <h5>John Doe</h5>
-    <p>The staff is so sexy !</p>
+    <p>The staff is so sexy !</p><br /><br /><br />
   </div>
- <fieldset>
-  <label for="email1">Email :</label>
-  <input type="text" name="email1" id="email1" autocomplete="off"><br>
-  <input type="hidden" name="email2" id="email2" value="" autocomplete="off">
-  <input type="submit" value="Submit" class="button">
- </fieldset>
+  <div class="w3-container w3-center">
+    <fieldset>
+     <label for="email1">Email :</label><br />
+     <input type="text" name="email1" id="email1" autocomplete="off"><br>
+     <input type="hidden" name="email2" id="email2" value="" autocomplete="off">
+     <input type="submit" value="Submit" class="button w3-button w3-black">
+    </fieldset>
+  </div>
 </div>
 
 <!-- Footer -->
