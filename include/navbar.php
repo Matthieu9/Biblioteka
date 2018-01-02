@@ -69,7 +69,12 @@ Contacte</a>';
 Contacte</a>';
     }
     ?>
-    
+  <a href="login.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right"><i class="fa fa-sign-in" aria-hidden="true"></i>
+</a>
+    </div>
+  </div>
+</div> 
+</a>
     
     
     
