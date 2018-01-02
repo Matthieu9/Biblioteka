@@ -36,8 +36,8 @@ include('include/navbar.php');
 
 <!-- Header -->
 <header class="w3-container w3-center w3-black" style="padding:128px 16px">
-  <h1 class="w3-margin w3-text-black w3-jumbo">฿IBLIOTECHA</h1>
-  <p class="w3-xlarge w3-text-black">FIND YOUR R00T.</p>
+  <h1 class="w3-margin w3-text-red w3-jumbo">฿IBLIOTECHA</h1>
+  <p class="w3-xlarge w3-text-green">FIND YOUR R00T.</p>
 </header>
 
 <body>
