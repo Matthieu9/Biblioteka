@@ -71,13 +71,13 @@ include('include/navbar.php');
 
     <div class="w3-twothird">
       <h1>Inscription</h1>
-       <form class="w3-container">
+       <form class="w3-container" action="include/register.php" method="post">
 
 <label>Pseudo</label>
-<input class="w3-input" type="text">
+<input class="w3-input" type="text" name="username">
 
 <label>Mot de passe</label>
-<input class="w3-input" type="text">
+<input class="w3-input" type="text" name="pass">
 
 <label>Mot de passe confirmation</label>
 <input class="w3-input" type="text"><br>
