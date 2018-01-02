@@ -55,7 +55,7 @@
     <div class="w3-twothird">
       <h1>฿ibliotecha, c'est quoi?</h1>
       <h4 class="w3-text-grey">฿ibliotecha, premier site de partage de pdf totalement gratuit sans pub.</h4>
-      <h5 class="w3-padding-32">C'est un site de partage de pdf accès plutôt sur la high-tech, programmation et tout types de sciences (mais si vous êtes là pour d'autre raisons restez, c'est disponible).<br />  ฿ibliotecha est un projet qui est née le 29 Décembre 2017, sur le serveur discord Didakt Community.<br>Il a pour but de promouvoir le savoir et la culture, sur le domaine des sciences et de la High-Tech grâce au partage de livres(PDF), vidéo(MP4,AVI).<br /> D'où son nom ฿ = du BiteCoin, ฿ibli = pour Bibliotéque, tech = pour la High-Tech.</h5>
+      <h5 class="w3-padding-32">C'est un site de partage de pdf accès plutôt sur la high-tech, programmation et tout types de sciences (mais si vous êtes là pour d'autre raisons restez, c'est disponible).<br />  ฿ibliotecha est un projet qui est née le 29 Décembre 2017, sur le serveur discord Didakt Community.<br>Il a pour but de promouvoir le savoir et la culture, sur le domaine des sciences et de la Hig-Tech grace au partage de livre(PDF), vidéo(MP4,AVI).<br /> D'où son nom ฿ = du BiteCoin, ฿ibli = pour Bibliotéque, tech = pour la Hig-Tech.</h5>
 
       <p class="w3-text-grey"></p>
     </div>
