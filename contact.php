@@ -18,39 +18,26 @@
   .fa-address-card-o,.fa-area-chart {font-size:200px}
 </style>
 
-<body>
-
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="../index.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-home">Accueil</a>
-    <a href="a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-fire">À propos</a>
-    <a href="Nouveautés.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-flask">Nouveautées</a>
-    <a href="Documentations.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-database">Documentations</a>
-    <a href="All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-tags">Catégories</a>
-    <a href="contact.php" class="w3-bar-item w3-button w3-padding-large w3-white fa-envelope">Contacte</a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">À propos</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Nouveautées</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Documentations</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Catégories</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contacte</a>
-  </div>
-</div>
+<?php
+include('include/navbar.php');
+?>
 
 <!-- Header -->
-<header class="w3-container w3-black w3-center" style="padding:128px 16px">
+<header class="w3-container w3-center w3-black" style="padding:128px 16px">
   <h1 class="w3-margin w3-text-red w3-jumbo">฿IBLIOTECHA</h1>
   <p class="w3-xlarge w3-text-green">FIND YOUR R00T.</p>
   <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top">RECHERCHER</button>
 </header>
 
-
-
+<body>
+<div class="w3-card-4 w3-dark-grey">
+  <div class="w3-container w3-center">
+    <h1><strong>Staff</strong></h1>
+    <img src="img_avatar3.png" alt="Staff" >
+    <h5>John Doe</h5>
+    <p>The staff is so sexy !</p>
+  </div>
+</div>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">
@@ -77,5 +64,4 @@ function myFunction() {
 }
 </script>
 
-</body>
 </html>
