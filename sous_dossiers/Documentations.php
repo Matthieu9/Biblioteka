@@ -2,11 +2,7 @@
 <html>
 
 <head>
-<<<<<<< HEAD
   <title>฿IBLIOTECHA - Documentations</title>
-=======
-  <title>W3.CSS Template</title>
->>>>>>> Poulpe
 </head>
 
 <meta charset="UTF-8">
@@ -28,21 +24,18 @@
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-<<<<<<< HEAD
     <a href="../index.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-home">Accueil</a>
     <a href="a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-fire">À propos</a>
     <a href="Nouveautés.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-flask">Nouveautées</a>
     <a href="Documentations.php" class="w3-bar-item w3-button w3-padding-large w3-white fa-database">Documentations</a>
     <a href="All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-tags">Catégories</a>
     <a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-envelope">Contacte</a>
-=======
     <a href="../index.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Accueil</a>
     <a href="a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">À propos</a>
     <a href="Nouveautés.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Nouveautées</a>
     <a href="Documentations.php" class="w3-bar-item w3-button w3-padding-large w3-white">Documentations</a>
     <a href="All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Catégories</a>
     <a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacte</a>
->>>>>>> Poulpe
   </div>
 
   <!-- Navbar on small screens -->
