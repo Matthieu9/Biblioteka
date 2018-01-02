@@ -30,12 +30,6 @@
     <a href="Documentations.php" class="w3-bar-item w3-button w3-padding-large w3-white fa-database">Documentations</a>
     <a href="All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-tags">Catégories</a>
     <a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white fa-envelope">Contacte</a>
-    <a href="../index.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Accueil</a>
-    <a href="a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">À propos</a>
-    <a href="Nouveautés.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Nouveautées</a>
-    <a href="Documentations.php" class="w3-bar-item w3-button w3-padding-large w3-white">Documentations</a>
-    <a href="All_categories.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Catégories</a>
-    <a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contacte</a>
   </div>
 
   <!-- Navbar on small screens -->
