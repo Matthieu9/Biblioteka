@@ -37,7 +37,7 @@
     <a href="#" class="w3-bar-item w3-button w3-padding-large">À propos</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Nouveautées</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Documentations</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Catégories</a>
+    <a href="All_categories.php" class="w3-bar-item w3-button w3-padding-large">Catégories</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Contacte</a>
   </div>
 </div>
