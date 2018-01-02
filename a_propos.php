@@ -3,21 +3,18 @@
 
 <head>
   <title>฿IBLIOTECHA - À propos</title>
-
-<<<<<<< HEAD
 </head>
+
 <?php
 include('include/navbar.php');
 ?>
+
 <!-- Header -->
-<header class="w3-container w3-grey w3-center" style="padding:128px 16px">
+<header class="w3-container w3-black w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-text-red w3-jumbo">฿IBLIOTECHA</h1>
   <p class="w3-xlarge w3-text-green">FIND YOUR R00T.</p>
   <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top">RECHERCHER</button>
 </header>
-
-
-
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">
