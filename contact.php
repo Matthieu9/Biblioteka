@@ -44,8 +44,8 @@ include('include/navbar.php');
 <div class="w3-card-4 w3-dark-grey">
   <div class="w3-container w3-center">
     <h1><strong>Staff</strong></h1>
-    <img src="include/img_avatar3.png" alt="Staff" >
-    <h5>John Doe</h5>
+    <img src="include/img_avatar3.png" alt="Staff" title="Didakt" ><img src="include/img_avatar3.png" alt="Staff" title="Veronique" >
+    <img src="include/img_avatar3.png" alt="Staff" title="LefSec" ><img src="include/img_avatar3.png" alt="Staff" title="Poulpitore" >
     <p>The staff is so sexy !</p><br /><br /><br />
   </div>
   <div class="w3-container w3-center">
