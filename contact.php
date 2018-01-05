@@ -46,6 +46,7 @@ include('include/navbar.php');
     <h1><strong>Staff</strong></h1>
     <img src="include/img_avatar3.png" alt="Staff" title="Didakt" ><img src="include/img_avatar3.png" alt="Staff" title="Veronique" >
     <img src="include/img_avatar3.png" alt="Staff" title="LefSec" ><img src="include/img_avatar3.png" alt="Staff" title="Poulpitore" >
+    <img src="include/img_avatar3.png" alt="Staff" title="Raphiz" >
     <p>The staff is so sexy !</p><br /><br /><br />
   </div>
   <div class="w3-container w3-center">
