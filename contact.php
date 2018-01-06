@@ -14,6 +14,10 @@
     #search {
       visibility: hidden;
     }
+    .staff{
+      color: red;
+      word-spacing: 210px;
+    }
   </style>
 </head>
 
@@ -44,9 +48,24 @@ include('include/navbar.php');
 <div class="w3-card-4 w3-dark-grey">
   <div class="w3-container w3-center">
     <h1><strong>Staff</strong></h1>
-    <img src="include/img_avatar3.png" alt="Staff" title="Didakt" ><img src="include/img_avatar3.png" alt="Staff" title="Veronique" >
-    <img src="include/img_avatar3.png" alt="Staff" title="LefSec" ><img src="include/img_avatar3.png" alt="Staff" title="Poulpitore" >
-    <p>The staff is so sexy !</p><br /><br /><br />
+    <img src="include/img_avatar3.png" alt="Staff" title="Didakt" >
+    <!-- <p>Didakt</p> -->
+    <img src="include/img_avatar3.png" alt="Staff" title="2.0 NAO" >
+    <!-- <p>Veronique</p> -->
+    <img src="include/img_avatar3.png" alt="Staff" title="LefSec" >
+    <!-- <p>Lefsec</p> -->
+    <img src="include/img_avatar3.png" alt="Staff" title="Poulpitore" >
+    <!-- <p>Poulpitore</p> -->
+    <img src="include/img_avatar3.png" alt="Staff" title="Raphiz" >
+    <!-- <p>Raphiz</p> -->
+    <div class="staff">
+    <span>Didakt</span>
+    <span>2.0NAO</span>
+    <span>LefSec</span>
+    <span>Poulpitore</span>
+    <span>Raphiz</span>
+    </div>
+    <p>The staff is so sexy !</p>
   </div>
   <div class="w3-container w3-center">
     <fieldset>
