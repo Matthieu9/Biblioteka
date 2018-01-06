@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>฿IBLIOTECHA - Contacte</title>
+  <title>฿IBLIOTECHA - Contacts</title>
 
   <style type="text/css">
     header {
@@ -46,7 +46,6 @@ include('include/navbar.php');
     <h1><strong>Staff</strong></h1>
     <img src="include/img_avatar3.png" alt="Staff" title="Didakt" ><img src="include/img_avatar3.png" alt="Staff" title="Veronique" >
     <img src="include/img_avatar3.png" alt="Staff" title="LefSec" ><img src="include/img_avatar3.png" alt="Staff" title="Poulpitore" >
-    <img src="include/img_avatar3.png" alt="Staff" title="Raphiz" >
     <p>The staff is so sexy !</p><br /><br /><br />
   </div>
   <div class="w3-container w3-center">
@@ -66,10 +65,10 @@ include('include/navbar.php');
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <a href="https://twitter.com/BIBLIOTECHA_OF"><i class="fa fa-twitter w3-hover-opacity"></i></a>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
  </div>
- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a>w3css</p>
+ <p>Powered by Didakt Community</p>
 </footer>
 
 <script>
