@@ -38,11 +38,11 @@ Accueil</a>';
     }
     if ($name == 'news.php'){
       echo '<a href="news.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-flask" aria-hidden="true"></i>
-Nouveautées</a>';
+Nouveautés</a>';
     }
     else {
       echo '<a href="news.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-flask" aria-hidden="true"></i>
-Nouveautées</a>';
+Nouveautés</a>';
     }
     if ($name == 'Documentations.php') {
       echo '<a href="Documentations.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-database" aria-hidden="true"></i>
@@ -62,11 +62,11 @@ Catégories</a>';
     }
     if ($name == 'contact.php'){
      echo '<a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-envelope" aria-hidden="true"></i>
-Contacte</a>'; 
+Contacts</a>'; 
     }
     else {
       echo '<a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-envelope" aria-hidden="true"></i>
-Contacte</a>';
+Contacts</a>';
     }
     ?>
   <a href="login.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right"><i class="fa fa-sign-in" aria-hidden="true"></i>
@@ -84,9 +84,9 @@ Contacte</a>';
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="#" class="w3-bar-item w3-button w3-padding-large">À propos</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Nouveautées</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Nouveautés</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Documentations</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Catégories</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contacte</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contacts</a>
   </div>
 </div>
