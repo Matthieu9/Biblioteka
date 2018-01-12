@@ -22,11 +22,11 @@
     <?php
     if ($name == 'index.php'){
       echo '<a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-white"><i class="fa fa-bars" aria-hidden="true"></i>
-Accueil</a>';
+฿IBLIOTECHA</a>';
     }
     else {
       echo '<a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-hover-white"><i class="fa fa-bars" aria-hidden="true"></i>
-Accueil</a>';
+฿IBLIOTECHA</a>';
     }
     if ($name == 'a_propos.php'){
       echo '<a href="a_propos.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><i class="fa fa-fire" aria-hidden="true"></i>
